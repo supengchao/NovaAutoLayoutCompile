@@ -20,9 +20,9 @@ android {
     }
 }
 
-def siteUrl = 'https://github.com/hongyangAndroid/AndroidAutoLayout'                        // #CONFIG# // project homepage
-def gitUrl = 'https://github.com/hongyangAndroid/AndroidAutoLayout.git'                     // #CONFIG# // project git
-group = "com.zhy"
+def siteUrl = 'https://github.com/supengchao/NovaAutoLayoutCompile'                        // #CONFIG# // project homepage
+def gitUrl = 'https://github.com/supengchao/NovaAutoLayoutCompile.git'                     // #CONFIG# // project git
+group = "com.xiaoju.nova"
 
 install {
     repositories.mavenInstaller {
@@ -41,9 +41,9 @@ install {
                 }
                 developers {
                     developer {
-                        id 'hongyangAndroid'                                           // #CONFIG# // your user id (you can write your nickname)
-                        name 'ZhangHongyang'                                       // #CONFIG# // your user name
-                        email '623565791@qq.com'                               // #CONFIG# // your email
+                        id 'supengchao'                                           // #CONFIG# // your user id (you can write your nickname)
+                        name 'supengchao'                                       // #CONFIG# // your user name
+                        email '1459384963@qq.com'                               // #CONFIG# // your email
                     }
                 }
                 scm {
