@@ -13,11 +13,6 @@ import nova.xiaoju.com.novaautolayout.config.AutoLayoutConifg;
 public class AutoUtils
 {
 
-    /**
-     * 会直接将view的LayoutParams上设置的width，height直接进行百分比处理
-     *
-     * @param view
-     */
     public static void auto(View view)
     {
         autoSize(view);
